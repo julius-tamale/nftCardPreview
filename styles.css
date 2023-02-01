@@ -59,11 +59,7 @@ body {
     height: 100%;
 }
 .hover-display img {
-    /*position: relative;
-    top: 50%;
-    left: 50%;*/
     width: 75px;
-
 }
 .image-container:hover .hover-display {
     display: flex;
@@ -158,11 +154,5 @@ h1 {
     #main-container {
         max-width: 320px;
         padding: 20px;
-        /*background-color: var(--card-bg-color);
-        border-radius: 30px;*/
     }
-    /*.container {
-    
-        box-shadow: -20px -20px var(--main-bg-color);
-    }*/
 }
