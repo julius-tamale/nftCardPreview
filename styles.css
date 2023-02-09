@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 /* root values */
 :root {
     --primary-color-one: hsl(215, 51%, 70%);
@@ -27,6 +30,7 @@
 body {
     background-color: var(--main-bg-color);
     font-family: var(--body-font);
+    font-weight: 300;
 }
 
 #main-container {
@@ -78,6 +82,7 @@ h1, .text-description > p {
 }
 h1 {
     font-size: 2rem;
+    font-size: 600;
 }
 .text-description > p {
     font-size: 1.3rem;
@@ -87,6 +92,7 @@ h1 {
     align-items: center;
     justify-content: space-between;
     font-size: 0.938rem;
+    font-weight: 400;
 }
 .price-div span {
     vertical-align: top;
